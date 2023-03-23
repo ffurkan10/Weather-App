@@ -1,0 +1,42 @@
+.weather {
+  margin-top: 50px;
+  &__container {
+    &__city {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+
+      h1 {
+        font-size: 40px;
+      }
+    }
+    &__desc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      margin-top: 50px;
+    }
+    &__informations {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      color: #fff;
+      list-style-type: none;
+      margin-top: 50px;
+      &__card {
+        background-color: rgba(255, 255, 255, 0.35);
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        p {
+          margin-block: 5px;
+        }
+      }
+    }
+  }
+}
